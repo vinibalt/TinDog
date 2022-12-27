@@ -169,3 +169,17 @@ h3 {
     color: #8f8f8f;
     font-family: 'Montserrat';
 }
+
+@media (max-width: 900px){
+    * {
+        font-size: 80%;
+    }
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
